@@ -1,0 +1,116 @@
+body{
+    text-align: center;
+    color:#000f08;
+    background-color :azure;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+h1::before {
+            content: "\01F60B";
+        }
+
+
+h1{
+  font-weight: 800;
+  font-size: 3.75em;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+h3{
+  font-size: 2em;
+}
+
+.subtitulo, h4 , h5 {
+  font-weight: 400;
+}
+
+
+.other {
+ background: #000f0f;
+  color:#ffffff;
+}
+
+.other a {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+
+.recipe{
+  text-align: right;
+  color: #010005;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding: 6.25rem 3.125rem;
+}
+
+
+.hero-section {
+  text-align: right;
+  background-image: url('../img/panqueques.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  color: #ffffff;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding: 6.25rem 3.125rem;
+}
+
+
+/* change bullet point for img*/
+.lista {
+  list-style-image:url('../img/icn_OK16x16.png');
+}
+
+
+.left {
+    text-align: left;
+    margin: 0.25em;
+}
+
+.col {
+    display:inline-block;
+    vertical-align: right;   
+}
+
+.list{
+text-align: justify;
+padding-right: 2.5rem ;
+
+  }
+.row {
+  text-align: justify;
+  width:100%;
+  margin:0 auto;
+  }
+.menu {
+ background: #d8dddd;
+  color:#ffffff;
+}
+.menu a  {
+  color:#d33f3f;
+  text-decoration: none;
+}
+.icono{
+  width: 2rem;
+  }
+.icono svg {
+  fill:#ffffff;
+}
+
+footer ul li  {
+ text-align: left;
+ display:inline-block;
+ margin: 0 1em;
+ vertical-align: middle;
+}
